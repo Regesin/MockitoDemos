@@ -12,6 +12,6 @@ public interface ICartService {
 
 	void addtoCart(Mobile mobile) throws MobileNotFoundException;
 
-	boolean removeFromCart(Mobile mobile) throws MobileNotFoundException;
+	boolean removeFromCart(Mobile mobile) throws  EmptyCartException;
 
 }
